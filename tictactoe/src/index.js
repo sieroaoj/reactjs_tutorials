@@ -105,7 +105,7 @@ class Game extends React.Component {
     const moves = history.map((step, move) => {
       let desc = "";
 
-      if (move == stepNumber) {
+      if (move === stepNumber) {
         desc = "> ";
       }
 
